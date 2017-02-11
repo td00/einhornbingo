@@ -29,7 +29,8 @@ body {
 	display: block;
 	float: left;
 	width: 600px;
-	color: #8B3E2F;
+/*	color: #8B3E2F;*/
+	color: #0066CC
 	opacity: 0.5;
 	text-shadow: 0px 1px 0px #e1e1e1, 0px -1px 0px #313131;
    	background-color: none;
