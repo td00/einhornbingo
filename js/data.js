@@ -34,7 +34,7 @@ var JSONBingo = {"squares": [
         {"square": "1 Met und X Becher bitte"},
         {"square": "Leute nicht so laut, denkt an die Nachbarn"},
         {"square": "*Ein Glas geht kaputt*"},    	
-        {"square": "NO CONTENT"},    	
+        {"square": "Gibt es eine (Speise)karte?"},    	
         {"square": "NO CONTENT"},    	
         {"square": "NO CONTENT"}, 
         {"square": "NO CONTENT"},    	
