@@ -17,17 +17,33 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
+#header {
+	font-size: 3.6em;
+	padding: 20px 20px 12px 20px;
+}
+
+#footer {
+	padding: 16px 20px 8px 20px;
+	font-size: 2.0em;
+}
+
+.text {
+	font-size: 1.2em;
+	line-height: 1.2em;
+}
+
 #container {
 	width: 640px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: none;
-}	
+}
 
 #header, #footer {
 	display: block;
-	float: left;
+	text-align: center;
+	/*float: left;*/
 	width: 600px;
 /*	color: #8B3E2F;*/
 	color: #0066CC
@@ -112,30 +128,4 @@ body {
 .win {
 	color: #ffffff !important;
    	background-color: red;
-}
-
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-
-	#container {
-		width: 640;
-		margin: -7px 0px 0px -7px;
-	}
-
-	#header {
-		font-size: 3.6em;
-		text-align: center;
-		padding: 20px 20px 12px 20px;
-	}
-	
-	#footer {	
-		padding: 16px 20px 8px 20px;
-		font-size: 2.0em;
-	}
-
-	.text {
-		font-size: 1.2em;
-		line-height: 1.2em;
-	}
 }
