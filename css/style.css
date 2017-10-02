@@ -83,7 +83,9 @@ body {
 }
 
 .square, .freesquare {
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	float: left;
 	overflow: hidden;
 	background-color: #fff;
